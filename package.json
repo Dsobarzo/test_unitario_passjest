@@ -1,8 +1,25 @@
 {
-  "devDependencies": {
-    "jest": "^26.6.3"
-  },
-  "dependencies": {
-    "bcrypt": "^5.0.1"
-  }
+    "devDependencies": {
+        "jest": "^26.6.3"
+    },
+    "dependencies": {
+        "bcrypt": "^5.0.1"
+    },
+    "name": "test_unitario_passjest",
+    "description": "Test unitario con jest para el proceso de generacion de una contraseña",
+    "version": "1.0.0",
+    "main": "}",
+    "scripts": {
+        "test": "jest --watchAll"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Dsobarzo/test_unitario_passjest.git"
+    },
+    "author": "Diego Sobarzo",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Dsobarzo/test_unitario_passjest/issues"
+    },
+    "homepage": "https://github.com/Dsobarzo/test_unitario_passjest#readme"
 }

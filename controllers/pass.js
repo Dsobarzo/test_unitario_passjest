@@ -14,9 +14,15 @@ const genpass = (unhash_pass) => {
             return secure_pass
         })
     })*/
-    const salt = bcrypt.genSaltSync(12)
-    const secure_pass = bcrypt.hashSync(unhash_pass, salt)
-    return secure_pass;
+
+    if (unhash_pass.length < 6) {
+        const salt = bcrypt.genSaltSync(12)
+        const secure_pass = bcrypt.hashSync(unhash_pass, salt)
+        return secure_pass;
+    }
+    return undefined;
+
+
 }
 
 //genpass("hola Mundo")
