@@ -26,6 +26,6 @@ const genpass = (unhash_pass) => {
 }
 
 //genpass("hola Mundo")
-console.log(genpass("Hola Mundo"))
+//console.log(genpass("Hola Mundo"))
 
 module.exports = { genpass }
